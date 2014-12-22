@@ -1,0 +1,73 @@
+@CHARSET "UTF-8";
+body {
+	margin: 0;
+	font-family: 'Comic Sans MS' 'Impact' '나눔손글씨 펜' '나눔손글씨 붓';
+}
+
+a {
+	color: navy;
+	text-decoration: none;
+}
+a:hover {
+	text-shadow: 1px 1px 1px orange;
+	text-decoration: underline;
+}
+h3 {
+	margin: 5px 0;	
+}
+
+header div,
+section div,
+footer div {
+	width: 800px;
+	margin: auto;
+}
+
+header {
+	background-color: rgba(128, 128, 0, .25);
+	padding: 10px 0;
+}
+header div {
+	height: 40px;
+}
+header div span {
+	font-size: 40px;
+}
+header div img {
+	height: 40px;
+	float: right;
+	border-radius: 10px;
+}
+
+
+section {
+	
+}
+section div {
+	padding: 10px 0;
+}
+section div article dl {
+	margin: 0;
+}
+section div article dl dd {
+	padding: 5px 0;
+	font-style: italic;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(128, 128, 0, .25);
+	font-size: 12px;
+}
+footer div {
+	text-align: center;
+}
+footer div article ol {
+	margin: 10px 0;
+}
+footer div article ol li {
+	padding: 0 10px;
+	display: inline-block;
+}
