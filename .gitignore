@@ -22,3 +22,6 @@ target/
 
 # build folder
 bin/
+
+# Window thumb
+Thumbs.db*

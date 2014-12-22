@@ -1,7 +1,7 @@
 @CHARSET "UTF-8";
 body {
 	margin: 0;
-	font-family: 'Comic Sans MS' 'Impact' '나눔손글씨 펜' '나눔손글씨 붓';
+	font: 13px/1.4 Helvetica,arial,freesans,clean,sans-serif,"Segoe UI Emoji","Segoe UI Symbol";
 }
 
 a {
@@ -38,7 +38,6 @@ header div img {
 	float: right;
 	border-radius: 10px;
 }
-
 
 section {
 	
