@@ -62,6 +62,7 @@ footer {
 }
 footer div {
 	text-align: center;
+	padding: 5px 0;
 }
 footer div article ol {
 	margin: 10px 0;
